@@ -1,0 +1,59 @@
+/* MazeComponent.css */
+
+/* Container for the maze */
+.maze-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Row of maze cells */
+  .maze-row {
+    display: flex;
+  }
+  
+  /* Individual maze cell */
+  .maze-cell {
+    width: 20px; /* Adjust to desired cell size */
+    height: 20px; /* Adjust to desired cell size */
+    position: relative;
+  }
+  
+  /* Maze walls */
+  .wall {
+    position: absolute;
+    background-color: #000; /* Adjust to desired wall color */
+  }
+  
+  /* Top wall */
+  .top {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px; /* Adjust to desired wall thickness */
+  }
+  
+  /* Right wall */
+  .right {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 2px; /* Adjust to desired wall thickness */
+  }
+  
+  /* Bottom wall */
+  .bottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px; /* Adjust to desired wall thickness */
+  }
+  
+  /* Left wall */
+  .left {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 2px; /* Adjust to desired wall thickness */
+  }
+  
